@@ -1,0 +1,32 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0 -- /Library/Frameworks/Python.framework/Versions/3.12/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/rachepallinandhitha/Downloads/L6_L7_23_shopping_cart/Lab 6
+plugins: cov-7.1.0
+collecting ... collected 23 items
+
+test_shopping_cart.py::test_food_item PASSED                             [  4%]
+test_shopping_cart.py::test_electronics_item PASSED                      [  8%]
+test_shopping_cart.py::test_clothing_item PASSED                         [ 13%]
+test_shopping_cart.py::test_bulk_discount PASSED                         [ 17%]
+test_shopping_cart.py::test_no_bulk_discount PASSED                      [ 21%]
+test_shopping_cart.py::test_invalid_category PASSED                      [ 26%]
+test_shopping_cart.py::test_negative_price PASSED                        [ 30%]
+test_shopping_cart.py::test_zero_quantity PASSED                         [ 34%]
+test_shopping_cart.py::test_negative_quantity PASSED                     [ 39%]
+test_shopping_cart.py::test_high_cart_discount PASSED                    [ 43%]
+test_shopping_cart.py::test_medium_cart_discount PASSED                  [ 47%]
+test_shopping_cart.py::test_no_cart_discount PASSED                      [ 52%]
+test_shopping_cart.py::test_prime_discount PASSED                        [ 56%]
+test_shopping_cart.py::test_valid_coupon PASSED                          [ 60%]
+test_shopping_cart.py::test_coupon_below_minimum PASSED                  [ 65%]
+test_shopping_cart.py::test_invalid_coupon PASSED                        [ 69%]
+test_shopping_cart.py::test_combined_discount PASSED                     [ 73%]
+test_shopping_cart.py::test_free_shipping PASSED                         [ 78%]
+test_shopping_cart.py::test_standard_shipping PASSED                     [ 82%]
+test_shopping_cart.py::test_prime_free_shipping PASSED                   [ 86%]
+test_shopping_cart.py::test_express_shipping PASSED                      [ 91%]
+test_shopping_cart.py::test_express_free_shipping PASSED                 [ 95%]
+test_shopping_cart.py::test_prime_express_shipping PASSED                [100%]
+
+============================== 23 passed in 0.01s ==============================

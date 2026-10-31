@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-9.1.1, pluggy-1.6.0
+rootdir: /Users/rachepallinandhitha/Downloads/L6_L7_23_shopping_cart/Lab 6
+plugins: cov-7.1.0
+collected 23 items
+
+test_shopping_cart.py .......................                            [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform darwin, python 3.12.7-final-0 _______________
+
+Name               Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------
+shopping_cart.py      32      0     22      0   100%
+--------------------------------------------------------------
+TOTAL                 32      0     22      0   100%
+============================== 23 passed in 0.03s ==============================
